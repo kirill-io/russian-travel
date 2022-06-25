@@ -1,0 +1,22 @@
+.places {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    row-gap: 50px;
+  }
+}

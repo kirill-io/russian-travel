@@ -1,0 +1,31 @@
+.cover__background {
+  padding-bottom: 62.5%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: .8;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.no-webp .cover__background {
+  background-image: url('../../../images/cover/cover-1x.jpg');
+}
+
+.webp .cover__background {
+  background-image: url('../../../images/cover/cover-1x.webp');
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .no-webp .cover__background {
+    background-image: url('../../../images/cover/cover-2x.jpg');
+  }
+
+  .webp .cover__background {
+    background-image: url('../../../images/cover/cover-2x.webp');
+  }
+}

@@ -1,0 +1,12 @@
+.title_type_cover {
+  line-height: 76px;
+  font-size: 72px;
+}
+
+@media screen and (max-width: 320px) {
+  .title_type_cover {
+    max-width: 288px;
+    line-height: 35px;
+    font-size: 32px;
+  }
+}

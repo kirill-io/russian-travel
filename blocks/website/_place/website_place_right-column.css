@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+  .website_place_right-column {
+    display: none;
+  }
+}
