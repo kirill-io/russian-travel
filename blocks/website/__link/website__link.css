@@ -1,0 +1,29 @@
+.website__link {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  color: var(--colorText);
+  border-bottom: 2px solid var(--colorText);
+  line-height: 22px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .website__link {
+    line-height: 1.22;
+    font-size: calc(1vw + 14px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .website__link {
+    font-size: calc(1vw + 8px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website__link {
+    line-height: 22px;
+    font-size: 18px;
+  }
+}

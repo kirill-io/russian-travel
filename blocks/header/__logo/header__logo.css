@@ -1,0 +1,14 @@
+.header__logo {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  max-width: 176px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 142px;
+  }
+}
