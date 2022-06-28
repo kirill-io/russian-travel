@@ -1,0 +1,14 @@
+.title_type_intro {
+  margin-bottom: 40px;
+  text-align: left;
+  line-height: 58px;
+  font-size: 54px;
+}
+
+@media screen and (max-width: 767px) {
+  .title_type_intro {
+    width: 85%;
+    line-height: 1.09;
+    font-size: calc(1vw + 29px);
+  }
+}

@@ -1,0 +1,3 @@
+.language__item-link_active {
+  border-bottom: 2px solid var(--colorText);
+}

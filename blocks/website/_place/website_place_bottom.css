@@ -1,0 +1,11 @@
+.website_place_bootom {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media screen and (max-width: 767px) {
+  .website_place_bootom {
+    display: none;
+  }
+}
