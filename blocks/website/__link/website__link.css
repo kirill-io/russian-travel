@@ -1,0 +1,9 @@
+.website__link {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  color: var(--colorText);
+  border-bottom: 2px solid var(--colorText);
+  line-height: 22px;
+  text-decoration: none;
+}

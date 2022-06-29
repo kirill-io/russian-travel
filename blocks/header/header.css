@@ -1,0 +1,32 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 1184px;
+  padding-top: 28px;
+  margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 90.625%;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 91%;
+    padding-top: 10px;
+  }
+}

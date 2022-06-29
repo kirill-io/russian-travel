@@ -1,0 +1,60 @@
+.cover__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 1184px;
+  max-height: 740px;
+  padding-top: 20.7%;
+  padding-bottom: 20.7%;
+  color: var(--colorText);
+  background: url("../../../images/cover/cover-1x.jpg") center center no-repeat;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.cover__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(42, 44, 47, .3);
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.cover__link:hover::before {
+  background: rgba(42, 44, 47, .8);
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__link {
+    padding-top: 19.04%;
+    padding-bottom: 19.04%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__link {
+    padding-top: 14.97%;
+    padding-bottom: 14.97%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    height: 42.8125%;
+    padding-top: 9.375%;
+    padding-bottom: 10.3125%;
+  }
+}
