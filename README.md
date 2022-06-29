@@ -19,3 +19,5 @@ ___
 * БЭМ-методология;
 * оптимизация изображений.
 ___
+Проект на GitHub Pages - https://kirill-begej.github.io/russian-travel/
+___
