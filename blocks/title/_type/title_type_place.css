@@ -1,0 +1,26 @@
+.title_type_place {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  line-height: 76px;
+  font-size: 72px;
+}
+
+@media screen and (max-width: 1023px) {
+  .title_type_place {
+    line-height: 1.095;
+    font-size: calc(1vw + 34px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title_type_place {
+    width: 90%;
+    min-width: 288px;
+    line-height: 1.09;
+    font-size: calc(1vw + 29px);
+  }
+}

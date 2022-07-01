@@ -1,0 +1,14 @@
+.cover__text {
+  max-width: 360px;
+  margin: 0;
+  text-align: center;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__text {
+    width: 93%;
+    line-height: 1.14;
+    font-size: calc(1vw + 13px);
+  }
+}
