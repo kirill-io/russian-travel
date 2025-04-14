@@ -41,7 +41,7 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/your-username/russian-travel.git
+   git clone https://github.com/kirill-io/russian-travel.git
 
 2. Перейдите в папку проекта:
 
